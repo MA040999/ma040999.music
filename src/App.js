@@ -25,6 +25,14 @@ const App = () => {
 
   return (
     <div className="App">
+      <a
+        className={`${state ? "show-music-h1" : ""}`}
+        style={{ color: "white" }}
+        href="https://cors-anywhere.herokuapp.com"
+        target="_blank"
+      >
+        Click to start server
+      </a>
       <form className={`search ${state ? "show-music" : ""}`}>
         <h1 className={`${state ? "show-music-h1" : ""}`}>
           Looking for a Song?
